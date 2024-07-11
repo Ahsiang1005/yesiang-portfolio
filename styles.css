@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #25b79f;
+  background-color: white;
   height: 100vh;
 }
 
@@ -47,18 +47,18 @@ header {
 
 .menu-items a {
   text-decoration: none;
-  color: #f0f0e6;
+  color: white;
   font-size: 1.2rem;
   padding: 0.3rem;
 }
 
 .menu-items a:hover {
-  border-bottom: 2px solid #f0f0e6;
+  border-bottom: 2px solid white;
 }
 
 .navbar .logo {
   order: 1;
-  color: #f0f0e6;
+  color: white;
   font-size: 2rem;
 }
 
@@ -69,7 +69,7 @@ header {
   top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #07374a;
+  color: black;
   width: 100%;
   text-align: center;
 }
@@ -80,7 +80,7 @@ header {
 }
 
 .home-content .name p {
-  color: #f0f0e6;
+  color: black;
   font-size: 1.5rem;
 }
 
@@ -90,7 +90,7 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
-  border: 3px solid #07374a;
+  border: 3px solid #25b79f;
   border-radius: 50%;
 }
 
@@ -103,7 +103,7 @@ header {
 /* ////........About Me........//// */
 
 .about-me {
-  background-color: #07374a;
+  background-color: black;
   padding: 6rem 0;
 }
 
@@ -200,16 +200,16 @@ header {
   width: 80%;
 }
 .progress-line .css {
-  width: 70%;
+  width: 55%;
 }
 .progress-line .bootstrap {
-  width: 50%;
+  width: 20%;
 }
 .progress-line .javascript {
-  width: 50%;
+  width: 45%;
 }
 .progress-line .c {
-  width: 50%;
+  width: 5%;
 }
 
 .bar .progress-line span::before {
@@ -242,16 +242,16 @@ header {
   content: "80%";
 }
 .progress-line .css::after {
-  content: "70%";
+  content: "55%";
 }
 .progress-line .bootstrap::after {
-  content: "50%";
+  content: "20%";
 }
 .progress-line .javascript::after {
-  content: "50%";
+  content: "45%";
 }
 .progress-line .c::after {
-  content: "50%";
+  content: "5%";
 }
 
 .navbar.solid {
@@ -297,13 +297,13 @@ header {
 /* ////.....Portfolio......///// */
 
 .portfolio {
-  background: #25b79f;
+  background: white;
   padding: 6rem 0;
 }
 
 .proj-heading h1 {
   text-align: center;
-  color: #07374a;
+  color: #25b79f;
   font-size: 2.3rem;
   font-weight: 700;
   margin: 3rem 0;
@@ -472,7 +472,7 @@ header {
 /* ////......Contact......///// */
 
 .contact {
-  background: #07374a;
+  background: black;
   position: relative;
   height: 92vh;
 }
@@ -515,6 +515,7 @@ header {
 .contact-content a:hover {
   color: #f0f0e6;
 }
+
 
 /* ////......Media query......//// */
 
